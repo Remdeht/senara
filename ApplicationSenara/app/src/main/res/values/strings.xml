@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ApplicationSenara</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message">Bienvenidos!</string>
+
+    <string name="descrition_img_button">Haz click en el botton para sacar una foto</string>
+    <string name="text_upload_button">Subir Imagen</string>
+    <string name="text_retake_button">Repetir</string>
+
+    <string name="org_info_header">¿Quienes somos?</string>
+    <string name="org_info">El Servicio Nacional de Aguas Subterráneas, Riego y Avenamiento (Senara) fue concebido desde sus inicios como una    institución con un rol estratégico en el tema de la gestión del recurso hídrico; tanto a nivel de su participación directa como en la coordinación con otras instituciones de los sectores agropecuario y ambiente</string>
+    <string name="contact_info_header">Contáctenos</string>
+    <string name="contact_info">Teléfono: 2257-9733, Página Web: www.senara.or.cr</string>
+    
+    <string name="results_header">Resultados</string>
+    <string name="total_comsumption">Consumo Total</string>
+    <string name="alocated_water">Agua asignado</string>
+    <string name="owner">Toma</string>
+    <string name="save_data_button_text">Guardar Datos</string>
+
+    <string name="instructions_for_datainput_header">Instrucciones para la entrada de datos.</string>
+    <string name="instructions_datainput">Con base en la imagen que se envió en los siguientes resultados se han determinado. En caso de que se hayan producido errores de clasificación, puede corregirlos utilizando los botones más y menos.</string>
+    <string name="instructions_datainput_button">Volver a resultados</string>
+
+    <string name="data_succesfuly_stored_text">¡Sus datos han sido almacenados con éxito en la base de datos!</string>
+    <string name="data_succesfuly_stored_button">Volver al inicio</string>
+
+    <string name="maps_API_key">AIzaSyB4n5D1iIG9kMUCivYp0SGFBmfQQipzndA</string><!--Add your own Google Maps API key here-->
+
+    <string name="yes_button_map_confirm">Confirmar Selección</string>
+    <string name="text_confirm_location_button">Confirmar Selección</string>
+    <string name="text_change_location_button">Cambiar selección</string>
+
+    <string name="TextViewMapActivity">"Based on your location the nearest watermeter is: "</string>
+</resources>

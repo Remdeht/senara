@@ -1,0 +1,7 @@
+image_processing/data/digits/*
+image_processing/data/random_templates/*
+image_processing/data/structured_templates/*
+image_processing/data/water_meters/*
+image_processing/results/digit_bins/*
+image_processing/results/digit_classifications/*
+image_processing/results/image_processing/*

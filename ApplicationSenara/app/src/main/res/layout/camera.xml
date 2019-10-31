@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primaryTextColor"
+    tools:context=".CameraActivity">
+
+    <Button
+        android:id="@+id/retakePicture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/secondaryColor"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/text_retake_button"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/cameraGuidelineBottom"
+        app:layout_constraintEnd_toStartOf="@+id/savePicture"
+        app:layout_constraintStart_toEndOf="@+id/camera_preview"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cameraGuidelineButtons"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <ImageButton
+        android:id="@+id/button_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="@android:color/transparent"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textDirection="ltr"
+        android:textIsSelectable="false"
+        app:layout_constraintBottom_toTopOf="@+id/cameraGuidelineBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cameraGuidelineButtons"
+        app:srcCompat="@drawable/camera_button_circle"
+        tools:layout_editor_absoluteY="656dp" />
+
+    <Button
+        android:id="@+id/savePicture"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="@color/secondaryColor"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/text_upload_button"
+        android:textAlignment="center"
+        android:textColor="@color/primaryTextColor"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/cameraGuidelineBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/retakePicture"
+        app:layout_constraintTop_toTopOf="@+id/cameraGuidelineButtons"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <ImageView
+        android:id="@+id/photoImageView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cameraGuidelineUpper"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextureView
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/cameraGuidelineUpper"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="146dp"
+        app:layout_constraintGuide_percent=".9" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cameraGuidelineUpper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="146dp"
+        app:layout_constraintGuide_percent=".1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cameraGuidelineButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="146dp"
+        app:layout_constraintGuide_percent=".8" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/cameraGuidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
