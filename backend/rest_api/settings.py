@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'rest_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'sdp_thesis',
+        'NAME': 'database name', # insert your database name here
         'USER': 'postgres',
-        'HOST': 'localhost',
-        'PASSWORD': '@SPw$kRyTI%8XA',
+        'HOST': 'localhost', # insert your host address here
+        'PASSWORD': 'password',  # Insert your password here 
         'PORT': '5432'
     }
 }
