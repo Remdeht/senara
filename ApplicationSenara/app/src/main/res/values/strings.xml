@@ -28,7 +28,7 @@
     <string name="data_succesfuly_stored_text">¡Sus datos han sido almacenados con éxito en la base de datos!</string>
     <string name="data_succesfuly_stored_button">Volver al inicio</string>
 
-    <string name="maps_API_key">AIzaSyB4n5D1iIG9kMUCivYp0SGFBmfQQipzndA</string><!--Add your own Google Maps API key here-->
+    <string name="maps_API_key">API-KEY</string><!--Add your own Google Maps API key here-->
 
     <string name="yes_button_map_confirm">Confirmar Selección</string>
     <string name="text_confirm_location_button">Confirmar Selección</string>
